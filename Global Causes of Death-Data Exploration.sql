@@ -5,13 +5,13 @@ SELECT * FROM GlobalHealth..[annual-number-of-deaths-by-cause]
 SELECT * FROM GlobalHealth..[total-number-of-deaths-by-cause] ORDER BY 1,2
 
 /*
-Dataset: Global cause of death
+Dataset: Global cause of death.
 Communicable diseases: infectious diseases caused by bacteria, viruses. example; tuberculosis, Influenza, measles, Covid-19, etc..
 Noncommunicable diseases: Chronic diseases caused by combination of genetic, physiological, environmental and behavioural factors. example; heart attacks and stroke, cancers, asthma, diabetes, etc...
 Injuries: results from road traffic crashes, falls, drowning, burns, acts of voiolence, etc..
 */
 
--- Data to work on
+-- Data to work on.
 SELECT * FROM GlobalHealth..[total-number-of-deaths-by-cause] ORDER BY 1,2
 
 --Shows annual number of death from causes and their sum per country, 1990 - 2019.
