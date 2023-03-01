@@ -1,4 +1,3 @@
---Analytics--COP
 USE GlobalHealth
 SELECT * FROM GlobalHealth..demographic ORDER BY 1,2
 SELECT * FROM GlobalHealth..[total-number-of-deaths-by-cause] 
